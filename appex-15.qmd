@@ -1,0 +1,19 @@
+---
+title: "Appex 15"
+format: html
+editor: visual
+---
+
+```{r}
+#| label: load-packages
+#| message: false
+#| warning: false
+library(tidyverse)
+library(Stat2Data)
+```
+
+```{r}
+#| label: load-data
+data("FirstYearGPA")
+
+```
